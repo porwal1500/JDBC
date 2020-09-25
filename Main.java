@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Scanner;
-
+// Connecting to the database
 public class Main {
 	public static void main(String[] a) {
 		Scanner sc = new Scanner(System.in);
@@ -16,8 +16,8 @@ public class Main {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/databasedemo", "Tanishq",
-					"tanishqporwal");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/databasedemo", "root",
+					"root");
 
 			Statement st = con.createStatement();
 			
