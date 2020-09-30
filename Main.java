@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Scanner;
-// Connecting to the database
+// Connecting to the database so that we can sotre and retrieve information.
 public class Main {
 	public static void main(String[] a) {
 		Scanner sc = new Scanner(System.in);
